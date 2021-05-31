@@ -20,7 +20,7 @@
         android:columnCount="4"
         android:orientation="horizontal"
         android:paddingLeft="15dp"
-        android:paddingBottom="70dp"
+        android:paddingBottom="75dp"
         android:useDefaultMargins="true">
 
 
