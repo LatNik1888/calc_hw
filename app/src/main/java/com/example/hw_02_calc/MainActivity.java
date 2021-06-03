@@ -9,6 +9,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
+
+//Код неоптимальный, но время, увы, поджимает. Все размеры в ресурсы занесу к следующему дз, там как раз это надо сделать. Плюс, попробую покурить мануалы по Data Binding. Наткнулся на него, выглядит интересно
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     EditText inputField;
     Button btn0;
