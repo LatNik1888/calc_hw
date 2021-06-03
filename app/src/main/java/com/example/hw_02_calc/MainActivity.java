@@ -106,8 +106,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             inputField.setText("");
         }
         operatorNum = inputField.getText().toString();
-        if (!lastSign.equals(""))
-        {
+        if (!lastSign.equals("")) {
             int index = operatorNum.lastIndexOf(lastSign);
             operatorNum = operatorNum.substring(index + 1);
         }
