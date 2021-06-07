@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="TextSize">30sp</dimen>
+    <dimen name="ButtonTextTize">18sp</dimen>
+    <dimen name="MarginTop">60dp</dimen>
+    <dimen name="paddingLeft">14dp</dimen>
+    <dimen name="paddingBottom">75dp</dimen>
+    <dimen name="TextViewMarginTop">60dp</dimen>
+    <dimen name="radius">15dp</dimen>
+
+</resources>

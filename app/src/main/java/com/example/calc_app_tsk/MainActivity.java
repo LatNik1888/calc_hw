@@ -1,7 +1,6 @@
 package com.example.calc_app_tsk;
 
 
-
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
@@ -12,7 +11,6 @@ import android.widget.Button;
 import android.widget.EditText;
 
 
-//Код неоптимальный, но время, увы, поджимает. Все размеры в ресурсы занесу к следующему дз. Плюс, попробую покурить мануалы по Data Binding.
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     EditText inputField;
     Button btn0;
