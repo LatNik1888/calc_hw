@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="NumberButtonStyle">
+        <item name="backgroundTint">@color/teal_200</item>
+        <item name="android:textSize">@dimen/ButtonTextTize</item>
+        <item name="android:background">@drawable/button_shape</item>
+
+    </style>
+
+    <style name="SymbolButtonStyle">
+        <item name="backgroundTint">@color/cardview_light_background</item>
+        <item name="android:textColor">@color/teal_200</item>
+        <item name="android:textSize">@dimen/ButtonTextTize</item>
+        <item name="android:background">@drawable/button_shape</item>
+    </style>
+
+    <style name="InputTextStyle">
+        <item name="android:textSize">@dimen/TextSize</item>
+    </style>
+
+
+</resources>
