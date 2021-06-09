@@ -4,6 +4,7 @@ package com.example.calc_app_tsk;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
@@ -36,6 +37,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
         inputField = (EditText) findViewById(R.id.inputField);
         listener();
+
+        findViewById(R.id.changeTheme).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, SecondActivity.class);
+                startActivity(intent);
+            }
+        });
 
     }
 
@@ -100,6 +109,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @SuppressLint({"SetTextI18n", "NonConstantResourceId"})
     public void onClick(View v) {
+
         String currentText = inputField.getText().toString();
         String operatorNum = "";
         if (currentText.equals("0")) {

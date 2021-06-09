@@ -7,5 +7,7 @@
     <dimen name="paddingBottom">75dp</dimen>
     <dimen name="TextViewMarginTop">60dp</dimen>
     <dimen name="radius">15dp</dimen>
+    <dimen name="MarginTopSecond">120dp</dimen>
+    <dimen name="SecondTextSize">55sp</dimen>
 
 </resources>

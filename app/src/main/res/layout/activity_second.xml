@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/math">
+
+    <TextView
+        android:id="@+id/secondScreenText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/MarginTop"
+        android:text="@string/text_second_screen"
+        android:textColor="@color/teal_200"
+        android:textSize="@dimen/SecondTextSize" />
+
+
+    <Button
+        android:id="@+id/BackToCalc"
+        style="@style/SecondNumberButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/MarginTopSecond"
+        android:text="@string/back_to_calc" />
+
+
+</FrameLayout>
