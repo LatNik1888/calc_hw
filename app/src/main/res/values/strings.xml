@@ -15,4 +15,8 @@
     <string name="button_0">0</string>
     <string name="button_minus">-</string>
     <string name="button_equal">=</string>
+    <string name="change_theme">Change Activity</string>
+
+    <string name="text_second_screen">Thanks for using this app!</string>
+    <string name="back_to_calc">Back to Calc</string>
 </resources>

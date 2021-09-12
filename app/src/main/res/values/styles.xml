@@ -19,5 +19,22 @@
         <item name="android:textSize">@dimen/TextSize</item>
     </style>
 
+    <style name="SecondNumberButtonStyle">
+        <item name="backgroundTint">@color/white</item>
+        <item name="android:textSize">@dimen/ButtonTextTize</item>
+        <item name="android:background">@drawable/button_shape</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+        <style name="SecondSymbolButtonStyle">
+            <item name="backgroundTint">@color/teal_200</item>
+            <item name="android:textColor">@color/white</item>
+            <item name="android:textSize">@dimen/ButtonTextTize</item>
+            <item name="android:background">@drawable/button_shape</item>
+        </style>
+
+
+
+
 
 </resources>
